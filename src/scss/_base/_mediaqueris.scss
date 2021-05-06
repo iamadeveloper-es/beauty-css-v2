@@ -74,6 +74,43 @@
     .m-span-12{
         grid-column: span 12;
     }
+    /* Flex */
+    .m-flex-1{
+        width: 8.33333%;
+    }
+    .m-flex-2{
+        width: 16.666667%;
+    }
+    .m-flex-3{
+        width: 25%; 
+    }
+    .m-flex-4{
+        width: 33.333%;
+    }
+    .m-flex-5{
+        width: 41.666667%;
+    }
+    .m-flex-6{
+        width: 50%;
+    }
+    .m-flex-7{
+        width: 58.333333%;
+    }
+    .m-flex-8{
+        width: 66.666667%;
+    }
+    .m-flex-9{
+        width: 75%;
+    }
+    .m-flex-10{
+        width: 83.333333%;
+    }
+    .m-flex-11{
+        width: 91.666667%;
+    }
+    .m-flex-12{
+        width: 100%;
+    }
 }
 
 @media screen and(min-width: 996px){
@@ -149,6 +186,43 @@
     }
     .lg-span-12{
         grid-column: span 12;
+    }
+    /* Flex */
+    .lg-flex-1{
+        width: 8.33333%;
+    }
+    .lg-flex-2{
+        width: 16.666667%;
+    }
+    .lg-flex-3{
+        width: 25%; 
+    }
+    .lg-flex-4{
+        width: 33.333%;
+    }
+    .lg-flex-5{
+        width: 41.666667%;
+    }
+    .lg-flex-6{
+        width: 50%;
+    }
+    .lg-flex-7{
+        width: 58.333333%;
+    }
+    .lg-flex-8{
+        width: 66.666667%;
+    }
+    .lg-flex-9{
+        width: 75%;
+    }
+    .lg-flex-10{
+        width: 83.333333%;
+    }
+    .lg-flex-11{
+        width: 91.666667%;
+    }
+    .lg-flex-12{
+        width: 100%;
     }
     .header .nav{
         display: flex;

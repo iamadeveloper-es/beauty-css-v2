@@ -1,0 +1,36 @@
+.form{
+    .input{
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 0 15px;
+        border: 1px solid var(--background);
+        border-radius: 5px;
+        outline: none;
+        transition: .4s ease-in all;
+        &:focus{
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+        }
+    }
+    .form-block{
+        padding: 10px;
+    }
+    .form-block{
+        margin-top: 5px;
+    }
+    input[type="file"] {
+        clip: rect(10px, 20px, 30px, 40px);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    .input-file {
+        position: relative;
+        vertical-align: bottom;
+    }
+}
