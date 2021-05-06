@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,80 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/beaty-grid.min.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <main class="main">
+        <div class="container">
+            <h1>title 1</h1>
+            <h2>title 2</h2>
+            <h3>title 3</h3>
+            <h4>title 4</h4>
+            <h5>title 5</h5>
+            <h6>title 6</h6>
+        </div>
+        <div class="container-fw">
+            <div class="container">
+                <h1>I am a full container</h1>
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="display-1">Display 1</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-3">Display 3</h1>
+        </div>
+        <div class="container">
+            <div class="grid col-1 m-col-2 lg-col-3">
+                <div class="card">card 1</div>
+                <div class="card">card 2</div>
+                <div class="card">card 3</div>
+                <div class="card">card 4</div>
+                <div class="card">card 5</div>
+                <div class="card">card 6</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="grid col-6">
+                <div class="card">card 1</div>
+                <div class="card">card 2</div>
+                <div class="card">card 3</div>
+                <div class="card">card 4</div>
+                <div class="card">card 5</div>
+                <div class="card">card 6</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="grid col-3">
+                <div class="span-3 m-span-2">
+                    <div class="card">
+                        <h2>Post</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est deleniti vero, quia
+                            deserunt reprehenderit beatae quidem repellat iure sequi odit provident quisquam dignissimos
+                            blanditiis, excepturi perferendis atque, cupiditate omnis.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Post</h2>
+                        <p>Voluptatum quidem amet officiis doloremque molestias beatae provident exercitationem numquam,
+                            facilis et reprehenderit! Tenetur illo quos quaerat commodi inventore itaque totam quam
+                            corrupti voluptates quae ea, corporis dolore obcaecati doloribus!</p>
+                    </div>
+                </div>
+                <div class="span-3 m-span-1">
+                    <div class="card">
+                        <h1>Aside</h1>
+                        <form action="" class="form">
+                            <input type="text" name="" placeholder="Escribe" id="" class="input">
+                            <input type="text" name="" placeholder="Escribe" id="" class="input">
+                            <button class="btn-primary">Send</button>
+                            <button class="btn-primary">Back</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
