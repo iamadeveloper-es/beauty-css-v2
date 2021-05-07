@@ -33,4 +33,18 @@
         position: relative;
         vertical-align: bottom;
     }
+    textarea{
+        
+    }
+    .select{
+        padding: 0 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        border-radius: 5px;
+        min-width: 100px;
+        height: 40px;
+        border: 1px solid var(--background);
+        border-radius: 5px;
+        cursor: pointer;
+    }
 }

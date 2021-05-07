@@ -1,9 +1,9 @@
+console.clear();
+
 const btnOpenModal = document.querySelector('.btn-modal');
 const btnCloseModal = document.querySelector('.modal-close');
 const modal = document.querySelector('.custom-modal');
 const modalContent = document.querySelector('.modal-content');
-
-console.log(modal)
 
 const addClass = (ele, className) => ele.classList.add(className);
 
@@ -32,7 +32,7 @@ modal.addEventListener('click', (e) => {
         closeModal();
     }
     else{
-        return 
+        return
     }
     
 })
